@@ -1,10 +1,9 @@
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Scale, ShieldCheck, Briefcase, ChevronRight, MessageSquare, Clock } from "lucide-react";
+import WhatsAppButton from "./components/buttonWpp";
 
-// Importe o seu botão de WhatsApp aqui. Ajuste o caminho se necessário.
-import WhatsAppButton from "./components/buttonWpp"; 
-
-const FADE_UP = {
+// Adicionamos a tipagem explícita ": Variants" aqui
+const FADE_UP: Variants = {
   hidden: { opacity: 0, y: 40 },
   visible: { 
     opacity: 1, 
