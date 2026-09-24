@@ -1,4 +1,4 @@
-import { motion, Variants } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import { Scale, ShieldCheck, Briefcase, ChevronRight, MessageSquare, Clock } from "lucide-react";
 import WhatsAppButton from "./components/buttonWpp";
 
