@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+/* Sintaxe nova do Tailwind v4 */
+@import "tailwindcss";
+
+/* As suas cores e fontes agora ficam direto no CSS! */
+@theme {
+  --color-adv-dark: #0f172a;
+  --color-adv-gold: #c8a97e;
+  --color-adv-light: #f8fafc;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
